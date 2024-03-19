@@ -6,7 +6,7 @@ const timer = setInterval(() => {
 
   const timerElement = document.getElementById("timer");
   const borderPercentage = (counter / 60) * 100;
-  timerElement.style.border = `10px solid #00FFFF`;
+  timerElement.style.border = `20px solid #00FFFF`; // Colore del bordo basato sul tempo rimanente
 
   if (counter === 0) {
     clearInterval(timer);
