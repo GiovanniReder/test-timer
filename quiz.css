@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&display=swap");
+body {
+  min-width: 900px;
+}
+
+.startBtn-container {
+  margin-block: 20%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.question-title-container {
+  text-align: center;
+  margin-top: 12em;
+  margin-bottom: 3em;
+  max-width: 750px;
+}
+
+.question-title {
+  font-weight: 500;
+  line-height: 1.2em;
+}
+
+.questionBtn {
+  background: linear-gradient(#22284e, #22284e) padding-box,
+    linear-gradient(180deg, #adb5e4, #22284e) border-box;
+  color: #e2ffff;
+  padding: 1.3em 3.5em;
+  border: 5px solid transparent;
+  border-radius: 50px;
+  display: inline-block;
+  font-size: 28px;
+  font-size: 1.3em;
+  font-weight: 500;
+  margin-block: 1em;
+  margin-right: 2em;
+  max-width: 380px;
+  min-width: 380px;
+}
+
+/* {
+    background-color: #ae0187;
+    border-radius: 60px;
+    border: 2px solid white;
+} */
+
+.questionBtn:hover {
+  box-shadow: none;
+}
+
+.questionBtn.clickedBtn {
+  background: linear-gradient(#aa0085, #81005d) padding-box,
+    linear-gradient(180deg, #f1bde3, #81005d) border-box;
+}
+
+.question-container {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 780px;
+  max-width: 1000px;
+}
+
+h4 {
+  font-weight: 700;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.span {
+  color: #ae0187;
+  font-weight: 700;
+}
+
+footer {
+  padding-top: 5em;
+  padding-bottom: 1em;
+}
+
+.question-number {
+  font-size: 1.3em;
+  font-weight: 200;
+  letter-spacing: 3px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  width: 180px;
+  padding: 50px 0;
+  border-radius: 8px;
+  row-gap: 30px;
+  margin-top: -3%;
+}
+.invisibile {
+  display: none;
+}
+.circular-progress {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: conic-gradient(#00ffff 3.6deg, #827f7f47 0deg);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8%;
+}
+.circular-progress::before {
+  content: "";
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: #411757;
+}
+.progress-value {
+  position: relative;
+  font-size: 40px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-left: 0.1em;
+  padding-top: 0;
+}
+.text {
+  font-size: 30px;
+  font-weight: 200;
+  color: #606060;
+}
+
+.divP p {
+  text-align: center;
+  margin: auto;
+  position: relative;
+  color: white;
+  font-weight: 200;
+}
+
+.pi {
+  margin-left: 0px;
+  position: relative;
+  color: white;
+  font-size: 0.5em;
+  margin-top: -20px;
+  margin-bottom: -20px;
+  font-weight: 200;
+  font-family: "Inter", sans-serif;
+}
+#marginP {
+  margin-left: 5px;
+}
